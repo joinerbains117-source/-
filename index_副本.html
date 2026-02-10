@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>瑞思国际 | Rise Consulting - 寻找改变世界的力量</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&display=swap');
+        body { font-family: 'Noto Sans SC', sans-serif; scroll-behavior: smooth; }
+        .hero-gradient { background: linear-gradient(135deg, #1a365d 0%, #2d3748 100%); }
+        .glass-card { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+        .partner-img { transition: transform 0.3s ease; }
+        .partner-img:hover { transform: scale(1.02); }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- 导航栏 -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-blue-900">RISE<span class="text-blue-500 text-lg ml-1">瑞思国际</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 text-gray-700 font-medium">
+                    <a href="#about" class="hover:text-blue-600">关于我们</a>
+                    <a href="#services" class="hover:text-blue-600">服务领域</a>
+                    <a href="#partners" class="hover:text-blue-600">核心合伙人</a>
+                    <a href="#contact" class="px-4 py-2 bg-blue-900 text-white rounded-lg hover:bg-blue-800 transition">联系我们</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄首屏 -->
+    <section class="pt-32 pb-20 hero-gradient text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+                        不止是猎寻人才，<br>更是连接梦想。
+                    </h1>
+                    <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+                        瑞思国际（Rise Consulting）深耕北京及全球精英市场，我们相信每一个卓越的灵魂，都值得一份成就伟大的事业。
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#partners" class="bg-white text-blue-900 px-8 py-3 rounded-full font-bold hover:shadow-lg transition">遇见合伙人</a>
+                        <a href="#about" class="border border-white/30 px-8 py-3 rounded-full font-bold hover:bg-white/10 transition">了解详情</a>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="relative">
+                        <div class="absolute -inset-4 bg-blue-400/20 rounded-full blur-3xl"></div>
+                        <!-- 背景图 -->
+                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800" alt="Office" class="relative rounded-2xl shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">关于瑞思国际</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 border border-gray-100 rounded-2xl hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 text-2xl">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">深度精准</h3>
+                    <p class="text-gray-600">我们不只是翻阅简历，我们通过深度面试和背景画像，确保每一位候选人都与企业文化深度契合。</p>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-2xl hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mb-6 text-2xl">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">全球视野</h3>
+                    <p class="text-gray-600">总部位于北京，资源链接硅谷、伦敦及新加坡，为中国企业全球化提供顶层人才支撑。</p>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-2xl hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center mb-6 text-2xl">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">温度咨询</h3>
+                    <p class="text-gray-600">我们关注人才的职业全周期，提供有温度的入职辅导、职业建议和长期的伙伴式服务。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 合伙人部分 -->
+    <section id="partners" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">核心合伙人</h2>
+                <p class="text-gray-500">专业、资深且深具同理心的领航团队</p>
+            </div>
+            
+            <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- ZOU SISI -->
+                <div class="bg-white rounded-3xl shadow-sm overflow-hidden flex flex-col md:flex-row partner-img">
+                    <div class="md:w-1/2 overflow-hidden bg-gray-200">
+                        <!-- 这里的 src 指向你上传到 GitHub 的照片文件名 -->
+                        <img src="sisi.jpg" alt="ZOU SISI" id="sisi-img" class="w-full h-full object-cover" onerror="this.src='https://api.dicebear.com/7.x/avataaars/svg?seed=Sisi'">
+                    </div>
+                    <div class="md:w-1/2 p-8 flex flex-col justify-center">
+                        <div class="mb-4">
+                            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-bold">Base: 北京</span>
+                        </div>
+                        <h3 class="text-3xl font-bold text-gray-900 mb-2">ZOU SISI</h3>
+                        <p class="text-blue-600 font-medium mb-6 italic">瑞思国际 高级合伙人</p>
+                        <p class="text-gray-600 leading-relaxed mb-6">
+                            Sisi 是一位极具温度的职场领航人。她坚信猎头工作不仅是寻找“最强的简历”，更是寻找“最对的人”。<br><br>
+                            作为一名平衡工作与生活的女性领导者，她深知人才在不同人生阶段的诉求，擅长通过敏锐的洞察力，为候选人与企业搭建真正的情感与价值桥梁。
+                        </p>
+                        <div class="space-y-2 text-sm">
+                            <div class="flex items-center text-gray-700">
+                                <i class="fas fa-check-circle text-blue-500 mr-2"></i> 专注 AI 与高新科技人才寻访
+                            </div>
+                            <div class="flex items-center text-gray-700">
+                                <i class="fas fa-check-circle text-blue-500 mr-2"></i> 擅长跨文化团队搭建与职场辅导
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 其他合伙人占位 -->
+                <div class="bg-white rounded-3xl shadow-sm overflow-hidden flex flex-col md:flex-row partner-img opacity-60">
+                    <div class="md:w-1/2 bg-gray-100 flex items-center justify-center">
+                         <div class="text-gray-400 p-8 text-center">
+                             <i class="fas fa-user-circle text-6xl mb-4"></i>
+                             <p>核心合伙人<br>James Chen</p>
+                         </div>
+                    </div>
+                    <div class="md:w-1/2 p-8 flex flex-col justify-center text-gray-400">
+                        <div class="mb-4 text-xs">Base: 上海</div>
+                        <h3 class="text-2xl font-bold mb-2">James Chen</h3>
+                        <p class="text-sm">金融科技 首席顾问</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <footer id="contact" class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">联系瑞思</h3>
+                    <p class="text-gray-400 mb-8 max-w-md">
+                        无论您是寻找核心领袖的企业主，还是正在思考下一步选择的候选人，瑞思国际都期待与您的深度对话。
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-blue-500 mr-4 w-5"></i>
+                            <span>北京市朝阳区国贸 CBD 核心区</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-blue-500 mr-4 w-5"></i>
+                            <span>sisi.zou@rise-consulting.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl border border-white/10">
+                    <div class="text-center">
+                        <p class="text-gray-400 mb-4 text-sm">扫描下方二维码即刻沟通（示例）</p>
+                        <div class="w-32 h-32 bg-white mx-auto rounded-lg flex items-center justify-center">
+                            <i class="fas fa-qrcode text-gray-900 text-6xl"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16 pt-8 border-t border-white/10 text-center text-gray-500 text-xs">
+                © 2024 Rise Consulting 瑞思国际.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
